@@ -32,7 +32,7 @@ function draw(){
 function check_sketch(){
     timer_counter++;
     document.getElementById("timer").innerHTML = "Timer: "+timer_counter;
-    if(timer_counter>500){
+    if(timer_counter>1000){
         document.getElementById("your_sketch").innerHTML = "Your Sketch: ";
         document.getElementById("confidence").innerHTML = "Confidence: ";
         timer_counter = 0;
